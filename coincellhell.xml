@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/philipp/ECad/CoinCells/coincells/coincells.kicad_sch</source>
+    <date>Mo 17 Jul 2023 15:32:16 CEST</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>coincells.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>heater.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>heater.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>heater.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>heater.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BAR1">
+      <value>LTL-2620</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/239/lite-On-LTL-2000%20Series-1175231.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Lite-On/LTL-2620HR?qs=3aj02xLJGJpaLooYantTqA%3D%3D</field>
+      </fields>
+      <libsource lib="uvos" part="LTL-2620" description="BAR GRAPH 10 segment block, high efficiency red"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Lite-On/LTL-2620HR?qs=3aj02xLJGJpaLooYantTqA%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="BAR GRAPH 10 segment block, high efficiency red"/>
+      <property name="ki_keywords" value="display LED array"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4759e58-5701-472f-b084-7beaed9dcde8</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>6p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/TDK/FG18C0G1H060DNT06?qs=icAhCOE9TbgEIETsPC9g5Q%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/TDK/FG18C0G1H060DNT06?qs=icAhCOE9TbgEIETsPC9g5Q%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3deba4e-9357-4b28-870a-2b1bccefbd3c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>6p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/TDK/FG18C0G1H060DNT06?qs=icAhCOE9TbgEIETsPC9g5Q%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/TDK/FG18C0G1H060DNT06?qs=icAhCOE9TbgEIETsPC9g5Q%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24cc00a1-481e-4c9e-90f5-3b37c6e4ecf2</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a64144a-46ff-42fb-80db-b163b6ca7e3a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92790422-f6e7-457e-b661-bf88a9d6f010</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c1d7da9-212f-45c8-91ff-70077db8a588</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95a323dc-14c1-404b-b845-c3aa18e7de14</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e32ec12d-5afd-4e30-9fd5-ecf777788537</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>470u 50v</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/KEMET/ESH477M050AH4AA?qs=gt1LBUVyoHm7mBP4Iibuzw%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/KEMET/ESH477M050AH4AA?qs=gt1LBUVyoHm7mBP4Iibuzw%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5f59cb3-cbb5-4fd1-aeea-67862ec9093c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78ba35af-48c2-47ee-92c3-f80799908e65</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e57e9584-1fbd-47dd-99d1-f119d44cc764</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55ff4e89-e438-48c8-bd82-0755ff0012b4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB_B</value>
+      <footprint>Connector_USB:USB_B_Lumberg_2411_02_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="USB Type B connector"/>
+      <property name="ki_keywords" value="connector USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23b650d0-2b5b-4587-a038-20a577e8e660</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2bde05-7815-437d-a054-1fdbf1688de2</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1ed30a5-3169-4d56-b3ea-a3c4f83d63ff</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Pin</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8165d504-7ceb-4744-863b-d76f11eec947</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <fields>
+        <field name="Field4">https://www.mouser.de/ProductDetail/onsemi-Fairchild/BC33725TAR?qs=u2B728UsA6qKwH1IAisoWA%3D%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Field4" value="https://www.mouser.de/ProductDetail/onsemi-Fairchild/BC33725TAR?qs=u2B728UsA6qKwH1IAisoWA%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c7fbced-3ab5-4221-bc3b-7868ec485ae2</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/onsemi-Fairchild/BC33725TAR?qs=u2B728UsA6qKwH1IAisoWA%3D%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/onsemi-Fairchild/BC33725TAR?qs=u2B728UsA6qKwH1IAisoWA%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e08776d4-8854-427a-9de0-a1ff2de10ffb</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <fields>
+        <field name="Field4">https://www.mouser.de/ProductDetail/onsemi-Fairchild/BC33725TAR?qs=u2B728UsA6qKwH1IAisoWA%3D%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Field4" value="https://www.mouser.de/ProductDetail/onsemi-Fairchild/BC33725TAR?qs=u2B728UsA6qKwH1IAisoWA%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6736a430-e10a-453d-a245-8135b40960a8</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/onsemi-Fairchild/BC33725TAR?qs=u2B728UsA6qKwH1IAisoWA%3D%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/onsemi-Fairchild/BC33725TAR?qs=u2B728UsA6qKwH1IAisoWA%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3de4941e-09ec-4d8a-8e3e-f8a0d1c35ff5</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>029439ee-7339-40e1-bfe2-0e643ac42db7</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45e3ca67-3818-474f-8ce7-7eb3faea0c52</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19e86205-bf9c-4344-954c-9c59aadd7467</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d50e77c-7702-436f-bf42-b383c3030ef3</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8609412c-c1a1-4127-b183-480c6500b40e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a447e9df-d75f-4633-b907-4e7f1df0c82e</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a62e326-300a-4079-9964-4b7299d7d141</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1.5K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23564700-90a1-48a1-8b8d-a2549f5acfe2</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>120R</value>
+      <footprint>Resistor_THT:R_Array_SIP5</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/4600M-777112.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Bourns/4605X-101-121LF?qs=V3Em1enZyNP6Mny7c9HUJg%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="R_Network04" description="4 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Bourns/4605X-101-121LF?qs=V3Em1enZyNP6Mny7c9HUJg%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="4 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8990b2b-41b3-4715-a94c-c8abdb74d0db</tstamps>
+    </comp>
+    <comp ref="RN2">
+      <value>120R</value>
+      <footprint>Resistor_THT:R_Array_SIP5</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/4600M-777112.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Bourns/4605X-101-121LF?qs=V3Em1enZyNP6Mny7c9HUJg%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="R_Network04" description="4 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Bourns/4605X-101-121LF?qs=V3Em1enZyNP6Mny7c9HUJg%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="4 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd42640e-54c0-4997-8c41-6eccc09d27fb</tstamps>
+    </comp>
+    <comp ref="RN3">
+      <value>R_Network04</value>
+      <footprint>Resistor_THT:R_Array_SIP5</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Bourns/4605X-101-102LF?qs=QW4jRO6c0NMh9Cf0TMxHDA%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="R_Network04" description="4 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Bourns/4605X-101-102LF?qs=QW4jRO6c0NMh9Cf0TMxHDA%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="4 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aab77104-cb1e-4043-ace2-ba2ef4fe64f4</tstamps>
+    </comp>
+    <comp ref="RN4">
+      <value>120R</value>
+      <footprint>Resistor_THT:R_Array_SIP5</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/4600M-777112.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Bourns/4605X-101-121LF?qs=V3Em1enZyNP6Mny7c9HUJg%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="R_Network04" description="4 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Bourns/4605X-101-121LF?qs=V3Em1enZyNP6Mny7c9HUJg%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="4 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac5239d7-b843-4005-900b-8bc9fad34985</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny3226-S</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3224-3226-3227-Data-Sheet-DS40002345A.pdf</datasheet>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny3226-S" description="20MHz, 32kB Flash, 3kB SRAM, 256B EEPROM, SOIC-20"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="20MHz, 32kB Flash, 3kB SRAM, 256B EEPROM, SOIC-20"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller tinyAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3406b677-b1e0-4213-8801-275caac4aa2f</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>TL084</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TL084HIDYYR?qs=QNEnbhJQKva9o0%2FPfPZvWg%3D%3D</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL084" description="Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TL084HIDYYR?qs=QNEnbhJQKva9o0%2FPfPZvWg%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84955670-56ee-46d8-88ce-fd84ffc7c5eb fdf246b6-59b6-4254-b983-28054e499100 2e8daea1-5684-490d-9529-90fa52c2a33f ba4db063-056a-4407-bf8e-64bcdc32d398 2e219ce3-fb82-422d-bade-c65ee213cff1</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>~</value>
+      <footprint>Package_SO:SSOP-16_3.9x4.9mm_P0.635mm</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/DAC088S085CIMTX-NOPB?qs=7X5t%252BdzoRHA9bO%2FVX1Ovkg%3D%3D</field>
+      </fields>
+      <libsource lib="uvos" part="DAC088S085" description=""/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/DAC088S085CIMTX-NOPB?qs=7X5t%252BdzoRHA9bO%2FVX1Ovkg%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34a7292d-fbb8-47db-bf89-e76712537691</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>uA7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ua78.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/UA78M33CKCSE3?qs=0O%2FZFlpUpJVw4%2Fn49UI04w%3D%3D</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="uA7805" description="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/UA78M33CKCSE3?qs=0O%2FZFlpUpJVw4%2Fn49UI04w%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263"/>
+      <property name="ki_keywords" value="Voltage Regulator 1A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3f057a6-bc80-4be6-9eaa-8d9a85cbc6c2</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz</value>
+      <footprint>Crystal:Crystal_Round_D2.0mm_Vertical</footprint>
+      <fields>
+        <field name="Source">https://eu.mouser.com/ProductDetail/Wurth-Elektronik/830014219B?qs=2WXlatMagcHtIp%252BQ4AMyQg%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Source" value="https://eu.mouser.com/ProductDetail/Wurth-Elektronik/830014219B?qs=2WXlatMagcHtIp%252BQ4AMyQg%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="coincells.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d450a7d6-66f7-491c-821e-4daf6fde6bcf</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>uvos:CR2032Holder</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>eaf76b54-2869-4c1a-bf57-06f0d523d674</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>3354ea1f-b19c-45c1-974c-84d25cec12b9</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>TIP41</value>
+      <footprint>uvos:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>https://www.centralsemi.com/get_document.php?cmp=1&amp;mergetype=pd&amp;mergepath=pd&amp;pdf_id=tip41.PDF</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/STMicroelectronics/TIP41C?qs=ljbEvF4DwOPALsfJVTZHww%3D%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="TIP41" description="6A Ic, 40V Vce, Power NPN Transistor, TO-220"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/STMicroelectronics/TIP41C?qs=ljbEvF4DwOPALsfJVTZHww%3D%3D"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="6A Ic, 40V Vce, Power NPN Transistor, TO-220"/>
+      <property name="ki_keywords" value="power NPN Transistor"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>2dadeda9-0e03-4a85-80ca-9fc433e095e4</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>BC807</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/onsemi/BC807-25LT1G?qs=sGAEpiMZZMvplms98TlKY3rIOtqo%252BKm6Kj%2F2ezB%2FSVs%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC807" description="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/onsemi/BC807-25LT1G?qs=sGAEpiMZZMvplms98TlKY3rIOtqo%252BKm6Kj%2F2ezB%2FSVs%3D"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>57e7b85f-a1b6-4376-9cd0-d67bce6950f1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>50R 0.5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Vishay-Dale/CMF5550R000FKEK70?qs=sGAEpiMZZMtlubZbdhIBIJTyOJSRU0adi3GIlUv7KGY%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Vishay-Dale/CMF5550R000FKEK70?qs=sGAEpiMZZMtlubZbdhIBIJTyOJSRU0adi3GIlUv7KGY%3D"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>6a5a8582-e398-4961-8c33-5f3da45fe73d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>RPCB</value>
+      <footprint>uvos:PCBResistor</footprint>
+      <fields>
+        <field name="Source">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="N/A"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>6a09c09a-7b17-45cc-b335-49a30246eddc</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>77a6048e-73e1-4265-b4b0-757103dc0af4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TMP100</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tmp100</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TMP100" description="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="ki_keywords" value="temperature sensor i2c smbus"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>ad45d5c5-3ca7-410a-9aff-c25f866dbdb6</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TMP100</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tmp100</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TMP100" description="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="ki_keywords" value="temperature sensor i2c smbus"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>9e796530-3259-4d94-8f80-f9241a43bf06</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>LM27</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm27.pdf?ts=1689580233032&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM27</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/LM27CIM5-1HJ-NOPB?qs=X1J7HmVL2ZELS5CZBHrQwg%3D%3D</field>
+      </fields>
+      <libsource lib="uvos" part="LM27" description=""/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/LM27CIM5-1HJ-NOPB?qs=X1J7HmVL2ZELS5CZBHrQwg%3D%3D"/>
+      <property name="Sheetname" value="Heater"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <sheetpath names="/Heater/" tstamps="/5e8009cc-6425-46e6-96fc-84c4792e38c4/"/>
+      <tstamps>c942ad3d-fd31-4f6c-b720-c130eda3c974</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>Battery_Cell</value>
+      <footprint>uvos:CR2032Holder</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>eaf76b54-2869-4c1a-bf57-06f0d523d674</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>3354ea1f-b19c-45c1-974c-84d25cec12b9</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>TIP41</value>
+      <footprint>uvos:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>https://www.centralsemi.com/get_document.php?cmp=1&amp;mergetype=pd&amp;mergepath=pd&amp;pdf_id=tip41.PDF</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/STMicroelectronics/TIP41C?qs=ljbEvF4DwOPALsfJVTZHww%3D%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="TIP41" description="6A Ic, 40V Vce, Power NPN Transistor, TO-220"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/STMicroelectronics/TIP41C?qs=ljbEvF4DwOPALsfJVTZHww%3D%3D"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="6A Ic, 40V Vce, Power NPN Transistor, TO-220"/>
+      <property name="ki_keywords" value="power NPN Transistor"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>2dadeda9-0e03-4a85-80ca-9fc433e095e4</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>BC807</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/onsemi/BC807-25LT1G?qs=sGAEpiMZZMvplms98TlKY3rIOtqo%252BKm6Kj%2F2ezB%2FSVs%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC807" description="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/onsemi/BC807-25LT1G?qs=sGAEpiMZZMvplms98TlKY3rIOtqo%252BKm6Kj%2F2ezB%2FSVs%3D"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>57e7b85f-a1b6-4376-9cd0-d67bce6950f1</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>50R 0.5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Vishay-Dale/CMF5550R000FKEK70?qs=sGAEpiMZZMtlubZbdhIBIJTyOJSRU0adi3GIlUv7KGY%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Vishay-Dale/CMF5550R000FKEK70?qs=sGAEpiMZZMtlubZbdhIBIJTyOJSRU0adi3GIlUv7KGY%3D"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>6a5a8582-e398-4961-8c33-5f3da45fe73d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>RPCB</value>
+      <footprint>uvos:PCBResistor</footprint>
+      <fields>
+        <field name="Source">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="N/A"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>6a09c09a-7b17-45cc-b335-49a30246eddc</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>77a6048e-73e1-4265-b4b0-757103dc0af4</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TMP100</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tmp100</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TMP100" description="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="ki_keywords" value="temperature sensor i2c smbus"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>9e796530-3259-4d94-8f80-f9241a43bf06</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TMP100</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tmp100</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TMP100" description="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="ki_keywords" value="temperature sensor i2c smbus"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>ad45d5c5-3ca7-410a-9aff-c25f866dbdb6</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>LM27</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm27.pdf?ts=1689580233032&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM27</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/LM27CIM5-1HJ-NOPB?qs=X1J7HmVL2ZELS5CZBHrQwg%3D%3D</field>
+      </fields>
+      <libsource lib="uvos" part="LM27" description=""/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/LM27CIM5-1HJ-NOPB?qs=X1J7HmVL2ZELS5CZBHrQwg%3D%3D"/>
+      <property name="Sheetname" value="Heater1"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <sheetpath names="/Heater1/" tstamps="/79a8ae58-08c3-4e61-bb60-e64b8598f4b8/"/>
+      <tstamps>c942ad3d-fd31-4f6c-b720-c130eda3c974</tstamps>
+    </comp>
+    <comp ref="BT3">
+      <value>Battery_Cell</value>
+      <footprint>uvos:CR2032Holder</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>eaf76b54-2869-4c1a-bf57-06f0d523d674</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>3354ea1f-b19c-45c1-974c-84d25cec12b9</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>TIP41</value>
+      <footprint>uvos:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>https://www.centralsemi.com/get_document.php?cmp=1&amp;mergetype=pd&amp;mergepath=pd&amp;pdf_id=tip41.PDF</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/STMicroelectronics/TIP41C?qs=ljbEvF4DwOPALsfJVTZHww%3D%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="TIP41" description="6A Ic, 40V Vce, Power NPN Transistor, TO-220"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/STMicroelectronics/TIP41C?qs=ljbEvF4DwOPALsfJVTZHww%3D%3D"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="6A Ic, 40V Vce, Power NPN Transistor, TO-220"/>
+      <property name="ki_keywords" value="power NPN Transistor"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>2dadeda9-0e03-4a85-80ca-9fc433e095e4</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>BC807</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/onsemi/BC807-25LT1G?qs=sGAEpiMZZMvplms98TlKY3rIOtqo%252BKm6Kj%2F2ezB%2FSVs%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC807" description="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/onsemi/BC807-25LT1G?qs=sGAEpiMZZMvplms98TlKY3rIOtqo%252BKm6Kj%2F2ezB%2FSVs%3D"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>57e7b85f-a1b6-4376-9cd0-d67bce6950f1</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>50R 0.5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Vishay-Dale/CMF5550R000FKEK70?qs=sGAEpiMZZMtlubZbdhIBIJTyOJSRU0adi3GIlUv7KGY%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Vishay-Dale/CMF5550R000FKEK70?qs=sGAEpiMZZMtlubZbdhIBIJTyOJSRU0adi3GIlUv7KGY%3D"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>6a5a8582-e398-4961-8c33-5f3da45fe73d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>RPCB</value>
+      <footprint>uvos:PCBResistor</footprint>
+      <fields>
+        <field name="Source">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="N/A"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>6a09c09a-7b17-45cc-b335-49a30246eddc</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>77a6048e-73e1-4265-b4b0-757103dc0af4</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TMP100</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tmp100</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TMP100" description="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="ki_keywords" value="temperature sensor i2c smbus"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>9e796530-3259-4d94-8f80-f9241a43bf06</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TMP100</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tmp100</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TMP100" description="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="ki_keywords" value="temperature sensor i2c smbus"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>ad45d5c5-3ca7-410a-9aff-c25f866dbdb6</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>LM27</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm27.pdf?ts=1689580233032&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM27</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/LM27CIM5-1HJ-NOPB?qs=X1J7HmVL2ZELS5CZBHrQwg%3D%3D</field>
+      </fields>
+      <libsource lib="uvos" part="LM27" description=""/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/LM27CIM5-1HJ-NOPB?qs=X1J7HmVL2ZELS5CZBHrQwg%3D%3D"/>
+      <property name="Sheetname" value="Heater2"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <sheetpath names="/Heater2/" tstamps="/743017a0-f54a-44d2-b5df-0ab3a950c05e/"/>
+      <tstamps>c942ad3d-fd31-4f6c-b720-c130eda3c974</tstamps>
+    </comp>
+    <comp ref="BT4">
+      <value>Battery_Cell</value>
+      <footprint>uvos:CR2032Holder</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Linx-Technologies/BAT-HLD-001-THM?qs=Z0V%2FpEl%252BOGcluj3h2QTrDw%3D%3D"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>eaf76b54-2869-4c1a-bf57-06f0d523d674</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>3354ea1f-b19c-45c1-974c-84d25cec12b9</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>TIP41</value>
+      <footprint>uvos:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>https://www.centralsemi.com/get_document.php?cmp=1&amp;mergetype=pd&amp;mergepath=pd&amp;pdf_id=tip41.PDF</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/STMicroelectronics/TIP41C?qs=ljbEvF4DwOPALsfJVTZHww%3D%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="TIP41" description="6A Ic, 40V Vce, Power NPN Transistor, TO-220"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/STMicroelectronics/TIP41C?qs=ljbEvF4DwOPALsfJVTZHww%3D%3D"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="6A Ic, 40V Vce, Power NPN Transistor, TO-220"/>
+      <property name="ki_keywords" value="power NPN Transistor"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>2dadeda9-0e03-4a85-80ca-9fc433e095e4</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>BC807</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/onsemi/BC807-25LT1G?qs=sGAEpiMZZMvplms98TlKY3rIOtqo%252BKm6Kj%2F2ezB%2FSVs%3D</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC807" description="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/onsemi/BC807-25LT1G?qs=sGAEpiMZZMvplms98TlKY3rIOtqo%252BKm6Kj%2F2ezB%2FSVs%3D"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>57e7b85f-a1b6-4376-9cd0-d67bce6950f1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>50R 0.5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Vishay-Dale/CMF5550R000FKEK70?qs=sGAEpiMZZMtlubZbdhIBIJTyOJSRU0adi3GIlUv7KGY%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Vishay-Dale/CMF5550R000FKEK70?qs=sGAEpiMZZMtlubZbdhIBIJTyOJSRU0adi3GIlUv7KGY%3D"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>6a5a8582-e398-4961-8c33-5f3da45fe73d</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>RPCB</value>
+      <footprint>uvos:PCBResistor</footprint>
+      <fields>
+        <field name="Source">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="N/A"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>6a09c09a-7b17-45cc-b335-49a30246eddc</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Source">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Source" value="Stock"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>77a6048e-73e1-4265-b4b0-757103dc0af4</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TMP100</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tmp100</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TMP100" description="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="ki_keywords" value="temperature sensor i2c smbus"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>9e796530-3259-4d94-8f80-f9241a43bf06</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TMP100</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tmp100</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TMP100" description="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/TMP100NA-3K?qs=RnzODY3cU8ttwUxnXA%252BgRQ%3D%3D"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <property name="ki_description" value="Temperature Sensor with I2C/SMBus Interface, SOT-23-6"/>
+      <property name="ki_keywords" value="temperature sensor i2c smbus"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>ad45d5c5-3ca7-410a-9aff-c25f866dbdb6</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>LM27</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm27.pdf?ts=1689580233032&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM27</datasheet>
+      <fields>
+        <field name="Source">https://www.mouser.de/ProductDetail/Texas-Instruments/LM27CIM5-1HJ-NOPB?qs=X1J7HmVL2ZELS5CZBHrQwg%3D%3D</field>
+      </fields>
+      <libsource lib="uvos" part="LM27" description=""/>
+      <property name="Source" value="https://www.mouser.de/ProductDetail/Texas-Instruments/LM27CIM5-1HJ-NOPB?qs=X1J7HmVL2ZELS5CZBHrQwg%3D%3D"/>
+      <property name="Sheetname" value="Heater3"/>
+      <property name="Sheetfile" value="heater.kicad_sch"/>
+      <sheetpath names="/Heater3/" tstamps="/dd5bc2ba-40c9-4ba9-bd31-b22116efc390/"/>
+      <tstamps>c942ad3d-fd31-4f6c-b720-c130eda3c974</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="TL084">
+      <description>Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl081.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL084</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Network04">
+      <description>4 resistor network, star topology, bussed resistors, small symbol</description>
+      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network04</field>
+        <field name="Footprint">Resistor_THT:R_Array_SIP5</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="common" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny3226-S">
+      <description>20MHz, 32kB Flash, 3kB SRAM, 256B EEPROM, SOIC-20</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3224-3226-3227-Data-Sheet-DS40002345A.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x12.8mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny3226-S</field>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3224-3226-3227-Data-Sheet-DS40002345A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="PA4" type="bidirectional"/>
+        <pin num="3" name="PA5" type="bidirectional"/>
+        <pin num="4" name="PA6" type="bidirectional"/>
+        <pin num="5" name="PA7" type="bidirectional"/>
+        <pin num="6" name="PB5" type="bidirectional"/>
+        <pin num="7" name="PB4" type="bidirectional"/>
+        <pin num="8" name="PB3" type="bidirectional"/>
+        <pin num="9" name="PB2" type="bidirectional"/>
+        <pin num="10" name="PB1" type="bidirectional"/>
+        <pin num="11" name="PB0" type="bidirectional"/>
+        <pin num="12" name="PC0" type="bidirectional"/>
+        <pin num="13" name="PC1" type="bidirectional"/>
+        <pin num="14" name="PC2" type="bidirectional"/>
+        <pin num="15" name="PC3" type="bidirectional"/>
+        <pin num="16" name="~{RESET}/PA0" type="bidirectional"/>
+        <pin num="17" name="PA1" type="bidirectional"/>
+        <pin num="18" name="PA2" type="bidirectional"/>
+        <pin num="19" name="PA3" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="uA7805">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ua78.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">uA7805</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ua78.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="TMP100">
+      <description>Temperature Sensor with I2C/SMBus Interface, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/gpn/tmp100</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMP100</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/tmp100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ADD1" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="ADD0" type="input"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC337">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, TO-92</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC337</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC807">
+      <description>0.8A Ic, 45V Vce, PNP Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC807</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC808-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="TIP41">
+      <description>6A Ic, 40V Vce, Power NPN Transistor, TO-220</description>
+      <docs>https://www.centralsemi.com/get_document.php?cmp=1&amp;mergetype=pd&amp;mergepath=pd&amp;pdf_id=tip41.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TIP41</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.centralsemi.com/get_document.php?cmp=1&amp;mergetype=pd&amp;mergepath=pd&amp;pdf_id=tip41.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="uvos" part="DAC088S085">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D_in" type="input"/>
+        <pin num="2" name="D_out" type="output"/>
+        <pin num="3" name="V_a" type="output"/>
+        <pin num="4" name="V_b" type="output"/>
+        <pin num="5" name="V_c" type="output"/>
+        <pin num="6" name="V_d" type="output"/>
+        <pin num="7" name="Vcc" type="power_in"/>
+        <pin num="8" name="V_REF1" type="input"/>
+        <pin num="9" name="V_REF2" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="V_h" type="output"/>
+        <pin num="12" name="V_g" type="output"/>
+        <pin num="13" name="V_f" type="input"/>
+        <pin num="14" name="V_e" type="output"/>
+        <pin num="15" name="SYNC" type="input"/>
+        <pin num="16" name="SCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="uvos" part="LM27">
+      <docs>https://www.ti.com/lit/ds/symlink/lm27.pdf?ts=1689580233032&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM27</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM27</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lm27.pdf?ts=1689580233032&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM27</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HYST" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="V_temp" type="output"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="OS" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="uvos" part="LTL-2620">
+      <description>BAR GRAPH 10 segment block, high efficiency red</description>
+      <docs>https://www.mouser.de/datasheet/2/239/lite-On-LTL-2000%20Series-1175231.pdf</docs>
+      <footprints>
+        <fp>HDSP?48*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BAR</field>
+        <field name="Value">LTL-2620</field>
+        <field name="Footprint">Display:LTL-2620</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/239/lite-On-LTL-2000%20Series-1175231.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="K" type="passive"/>
+        <pin num="5" name="K" type="passive"/>
+        <pin num="6" name="A" type="passive"/>
+        <pin num="7" name="A" type="passive"/>
+        <pin num="8" name="K" type="passive"/>
+        <pin num="9" name="K" type="passive"/>
+        <pin num="10" name="K" type="passive"/>
+        <pin num="11" name="A" type="passive"/>
+        <pin num="12" name="K" type="passive"/>
+        <pin num="13" name="K" type="passive"/>
+        <pin num="14" name="A" type="passive"/>
+        <pin num="15" name="A" type="passive"/>
+        <pin num="16" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>/usr/share/kicad/symbols//MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>/usr/share/kicad/symbols//Sensor_Temperature.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="uvos">
+      <uri>/home/philipp/.local/share/kicad/7.0/symbols/uvos.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="RN3" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U11" pin="7" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="U11" pin="8" pinfunction="V_REF1" pintype="input"/>
+      <node ref="U11" pin="9" pinfunction="V_REF2" pintype="input"/>
+      <node ref="U13" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U14" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U15" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U16" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U17" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U2" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="ADD1" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="ADD1" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="ADD1" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="ADD0" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="ADD0" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="ADD1" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="ADD0" pintype="input"/>
+      <node ref="U9" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="ADD0" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="Q5" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U17" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="+24V">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/Heater/HEATER">
+      <node ref="BAR1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="BAR1" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="5" name="/Heater1/HEATER">
+      <node ref="BAR1" pin="10" pinfunction="K" pintype="passive"/>
+      <node ref="BAR1" pin="11" pinfunction="A" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U10" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="6" name="/Heater2/HEATER">
+      <node ref="BAR1" pin="6" pinfunction="A" pintype="passive"/>
+      <node ref="BAR1" pin="7" pinfunction="A" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="7" name="/Heater3/HEATER">
+      <node ref="BAR1" pin="14" pinfunction="A" pintype="passive"/>
+      <node ref="BAR1" pin="15" pinfunction="A" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U10" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="J5" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q16" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="RN1" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="RN2" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="RN4" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U11" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="1" pinfunction="HYST" pintype="input"/>
+      <node ref="U13" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="1" pinfunction="HYST" pintype="input"/>
+      <node ref="U14" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U15" pin="1" pinfunction="HYST" pintype="input"/>
+      <node ref="U15" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U16" pin="1" pinfunction="HYST" pintype="input"/>
+      <node ref="U16" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U17" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="ADD1" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="ADD0" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="ADD0" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="ADD0" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="ADD1" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="ADD0" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="ADD1" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="ADD1" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(BT1--)">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(BT2-+)">
+      <node ref="BT2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(BT2--)">
+      <node ref="BT2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(BT3-+)">
+      <node ref="BT3" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(BT3--)">
+      <node ref="BT3" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(BT4-+)">
+      <node ref="BT4" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(BT4--)">
+      <node ref="BT4" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RN4" pin="5" pinfunction="R4" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RN4" pin="3" pinfunction="R2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J5-D+)">
+      <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J5-D-)">
+      <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J6-Pin_2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(J6-Pin_3)">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J7-Pin_1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U11" pin="14" pinfunction="V_e" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(J7-Pin_2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U11" pin="13" pinfunction="V_f" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(J7-Pin_3)">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U11" pin="12" pinfunction="V_g" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(J7-Pin_4)">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U11" pin="11" pinfunction="V_h" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(J8-Pin_1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q1-B)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="Q13" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q1-C)">
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q2-C)">
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(Q3-C)">
+      <node ref="Q3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q4-C)">
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(Q5-B)">
+      <node ref="Q5" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(Q6-B)">
+      <node ref="Q6" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(Q7-B)">
+      <node ref="Q7" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(Q8-B)">
+      <node ref="Q8" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(Q13-B)">
+      <node ref="Q13" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q14-B)">
+      <node ref="Q14" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(Q14-E)">
+      <node ref="Q14" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(Q15-B)">
+      <node ref="Q15" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(Q15-E)">
+      <node ref="Q15" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(Q16-B)">
+      <node ref="Q16" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q16-E)">
+      <node ref="Q16" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U10" pin="7" pintype="output"/>
+    </net>
+    <net code="47" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="output"/>
+    </net>
+    <net code="48" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U10" pin="8" pintype="output"/>
+    </net>
+    <net code="49" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U10" pin="14" pintype="output"/>
+    </net>
+    <net code="50" name="Net-(RN1-R1)">
+      <node ref="BAR1" pin="9" pinfunction="K" pintype="passive"/>
+      <node ref="RN1" pin="2" pinfunction="R1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(RN1-R2)">
+      <node ref="BAR1" pin="12" pinfunction="K" pintype="passive"/>
+      <node ref="RN1" pin="3" pinfunction="R2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(RN1-R3)">
+      <node ref="BAR1" pin="13" pinfunction="K" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="R3" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(RN1-R4)">
+      <node ref="BAR1" pin="16" pinfunction="K" pintype="passive"/>
+      <node ref="RN1" pin="5" pinfunction="R4" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(RN2-R1)">
+      <node ref="BAR1" pin="8" pinfunction="K" pintype="passive"/>
+      <node ref="RN2" pin="2" pinfunction="R1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(RN2-R2)">
+      <node ref="BAR1" pin="5" pinfunction="K" pintype="passive"/>
+      <node ref="RN2" pin="3" pinfunction="R2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(RN2-R3)">
+      <node ref="BAR1" pin="4" pinfunction="K" pintype="passive"/>
+      <node ref="RN2" pin="4" pinfunction="R3" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(RN2-R4)">
+      <node ref="BAR1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RN2" pin="5" pinfunction="R4" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(U1-PA1)">
+      <node ref="U1" pin="17" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U11" pin="1" pinfunction="D_in" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(U1-PA2)">
+      <node ref="U1" pin="18" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="U11" pin="15" pinfunction="SYNC" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(U1-PA3)">
+      <node ref="U1" pin="19" pinfunction="PA3" pintype="bidirectional"/>
+      <node ref="U11" pin="16" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(U1-PB2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PB2" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(U1-PB3)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB3" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(U1-PC0)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="Net-(U1-PC1)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="Net-(U10A-+)">
+      <node ref="U10" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="3" pinfunction="V_a" pintype="output"/>
+    </net>
+    <net code="66" name="Net-(U10B-+)">
+      <node ref="U10" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="4" pinfunction="V_b" pintype="output"/>
+    </net>
+    <net code="67" name="Net-(U10C-+)">
+      <node ref="U10" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="5" pinfunction="V_c" pintype="output"/>
+    </net>
+    <net code="68" name="Net-(U10D-+)">
+      <node ref="U10" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="6" pinfunction="V_d" pintype="output"/>
+    </net>
+    <net code="69" name="Net-(U13-OS)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="OS" pintype="open_collector"/>
+    </net>
+    <net code="70" name="Net-(U14-OS)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="OS" pintype="open_collector"/>
+    </net>
+    <net code="71" name="Net-(U15-OS)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U15" pin="5" pinfunction="OS" pintype="open_collector"/>
+    </net>
+    <net code="72" name="Net-(U16-OS)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U16" pin="5" pinfunction="OS" pintype="open_collector"/>
+    </net>
+    <net code="73" name="SCL_A">
+      <node ref="RN3" pin="5" pinfunction="R4" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PB0" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="SCL" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="SCL" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="SCL" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="74" name="SCL_B">
+      <node ref="RN3" pin="4" pinfunction="R3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PA5" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="SCL" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="SCL" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="SCL" pintype="input"/>
+      <node ref="U9" pin="1" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="75" name="SDA_A">
+      <node ref="RN3" pin="2" pinfunction="R1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U7" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="SDA_B">
+      <node ref="RN3" pin="3" pinfunction="R2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U8" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U9" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(RN4-R1-Pad2)">
+      <node ref="RN4" pin="2" pinfunction="R1" pintype="passive"/>
+    </net>
+    <net code="78" name="unconnected-(RN4-R3-Pad4)">
+      <node ref="RN4" pin="4" pinfunction="R3" pintype="passive"/>
+    </net>
+    <net code="79" name="unconnected-(U1-PA4-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(U1-PA7-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="unconnected-(U1-PB4-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="unconnected-(U1-PB5-Pad6)">
+      <node ref="U1" pin="6" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(U11-D_out-Pad2)">
+      <node ref="U11" pin="2" pinfunction="D_out" pintype="output"/>
+    </net>
+    <net code="84" name="unconnected-(U13-V_temp-Pad3)">
+      <node ref="U13" pin="3" pinfunction="V_temp" pintype="output"/>
+    </net>
+    <net code="85" name="unconnected-(U14-V_temp-Pad3)">
+      <node ref="U14" pin="3" pinfunction="V_temp" pintype="output"/>
+    </net>
+    <net code="86" name="unconnected-(U15-V_temp-Pad3)">
+      <node ref="U15" pin="3" pinfunction="V_temp" pintype="output"/>
+    </net>
+    <net code="87" name="unconnected-(U16-V_temp-Pad3)">
+      <node ref="U16" pin="3" pinfunction="V_temp" pintype="output"/>
+    </net>
+  </nets>
+</export>
